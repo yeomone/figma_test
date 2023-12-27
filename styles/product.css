@@ -1,0 +1,62 @@
+main {width: 1440px; margin: 0 auto;}
+/* 상품목록 */
+.product {
+    width: 1200px; margin: 0 auto;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+}
+/* 공통 CSS */
+.product .item1, .product .item2, .product .item3 {
+    width: 100%;
+    margin-right: 15px;
+    display: flex; flex-flow: column nowrap;
+}
+.product .item1 img, .product .item2 img, .product .item3 img {
+    width: 390px; 
+    margin-bottom: 20px;
+}
+.product .item1 h1, .product .item2 h1, .product .item3 h1 {
+    margin-bottom: 20px;
+}
+.product .item1 .price, .product .item2 .price, .product .item3 .price {
+    font-weight: bold; margin-bottom: 20px; border-bottom: 1px solid #000; padding-bottom: 20px;
+}
+.product .item1 p, .product .item2 p, .product .item3 p {margin-bottom: 20px;}
+.product .item1 .priceCustom, .product .item2 .priceCustom, .product .item3 .priceCustom {
+    display: flex; flex-flow: row nowrap; 
+}
+.product .item1 .priceCustom .best, .product .item2 .priceCustom .best, .product .item3 .priceCustom .best {
+    background-color: #FF9999; color: #fff;
+    padding: 3px 15px; margin-right: 10px;
+}
+.product .item1 .priceCustom .customMade, .product .item2 .priceCustom .customMade, .product .item3 .priceCustom .customMade {
+    background-color: #FFBED6; color: #fff;
+    padding: 3px 15px;
+}
+/* 1번상품 */
+.product .item1 {}
+.product .item1 img {}
+.product .item1 h1 {}
+.product .item1 .price {}
+.product .item1 p {}
+.product .item1 .priceCustom {}
+.product .item1 .priceCustom .best {}
+.product .item1 .priceCustom .customMade {}
+/* 2번상품 */
+.product .item2 {}
+.product .item2 img {}
+.product .item2 h1 {}
+.product .item2 .price {}
+.product .item2 p {}
+.product .item2 .priceCustom {}
+.product .item2 .priceCustom .best {}
+.product .item2 .priceCustom .customMade {}
+/* 3번상품 */
+.product .item3 {}
+.product .item3 img {}
+.product .item3 h1 {}
+.product .item3 .price {}
+.product .item3 p {}
+.product .item3 .priceCustom {}
+.product .item3 .priceCustom .best {}
+.product .item3 .priceCustom .customMade {}
